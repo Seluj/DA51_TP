@@ -40,13 +40,11 @@ contract Crowdfunding {
     function checkGoalReached(uint256 _campaignId) public {
         Campaign storage campaign = campaigns[_campaignId];
         require(!campaign.closed, "Campaign is closed");
-        require(block.timestamp >= campaign.deadline, "Deadline has not passed");
+        //require(block.timestamp >= campaign.deadline, "Deadline has not passed");
 
         if (campaign.balance >= campaign.goal) {
-            campaign.creator.transfer(campaign.balance);
+            campaign.closed = true;
         }
-
-        campaign.closed = true;
     }
 
     function withdraw(uint256 _campaignId) public {
