@@ -42,16 +42,13 @@ contract("Crowdfunding", (accounts) => {
 
         await crowdfundingInstance.startCampaign(goal, deadline, { from: creator });
 
-        // Contribute to the campaign
         await crowdfundingInstance.contribute(0, { from: contributor, value: web3.utils.toWei("2", "ether") });
 
-        // Check that the goal has been reached and the campaign closes
         await crowdfundingInstance.checkGoalReached(0, { from: creator });
 
         const campaign = await crowdfundingInstance.campaigns(0);
         assert.equal(campaign.closed, true, "Campaign should be closed after goal is reached");
 
-        // Ensure the creator can withdraw the funds
         const initialBalance = web3.utils.toBN(await web3.eth.getBalance(creator));
         await crowdfundingInstance.withdraw(0, { from: creator });
 
@@ -65,7 +62,6 @@ contract("Crowdfunding", (accounts) => {
 
         await crowdfundingInstance.startCampaign(goal, deadline, { from: creator });
 
-        // Wait until the deadline has passed
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
         try {

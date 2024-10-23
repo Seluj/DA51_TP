@@ -24,12 +24,12 @@ App = {
   },
 
   initContract: function() {
-    $.getJSON('DocumentUpload.json', function(data) {
+    $.getJSON('Crowdfunding.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with truffle-contract
       var AdoptionArtifact = data;
-      App.contracts.UploadDocument = TruffleContract(AdoptionArtifact);
+      App.contracts.Crowdfunding = TruffleContract(AdoptionArtifact);
       // Set the provider for our contract
-      App.contracts.UploadDocument.setProvider(App.web3Provider);
+      App.contracts.Crowdfunding.setProvider(App.web3Provider);
     });
     return App.bindEvents();
   },
@@ -57,7 +57,7 @@ App = {
                 console.log(error);
             }
             var account = accounts[0];
-            App.contracts.UploadDocument.deployed().then(function(instance) {
+            App.contracts.Crowdfunding.deployed().then(function(instance) {
                 doc = instance;
                 return doc.uploadDocument(sha, {from: account});
             }).then(function(result) {
