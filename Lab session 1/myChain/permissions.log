@@ -1,0 +1,88 @@
+2024-10-08 16:07:00	Initialized: Admin count: 0, Miner count: 0, ledger rows: 1
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00000001-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00000002-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00000004-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00000020-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00000010-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00002000-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00000100-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 0, Miner count: 1
+2024-10-08 16:07:01	Grant: (00000000-7678077e-00001000-7678077e) (0--1, 1728396421), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:07:01	Grant: (6d1c256a-00000000-00000001-7678077e) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:07:01	Grant: (6d1c256a-7678077e-00000008-7678077e) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:07:01	Grant: (6d1c256a-7678077e-00000080-7678077e) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:07:01	Grant: (6d1c256a-7678077e-00002000-7678077e) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:07:01	Grant: (6d1c256a-7678077e-00001000-7678077e) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:07:01	Block commit:         0 (Hash: 31570c0a, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 16
+2024-10-08 16:07:01	Block commit:         1 (Hash: ecbb8d36, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 18
+2024-10-08 16:07:01	Block commit:         2 (Hash: 760c121c, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 20
+2024-10-08 16:07:09	Block commit:         3 (Hash: 26eb48f5, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 22
+2024-10-08 16:07:25	Block commit:         4 (Hash: 5bd0f8e5, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 24
+2024-10-08 16:07:37	Block commit:         5 (Hash: 0bbcc233, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 26
+2024-10-08 16:07:57	Block commit:         6 (Hash: 3b089d96, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 28
+2024-10-08 16:08:14	Block commit:         7 (Hash: d45ef59a, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 30
+2024-10-08 16:08:29	Block commit:         8 (Hash: 8b3b6cbd, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 32
+2024-10-08 16:08:43	Block commit:         9 (Hash: 66e6fe3e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 34
+2024-10-08 16:09:04	Block commit:        10 (Hash: 2f3a6cfc, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 36
+2024-10-08 16:09:24	Block commit:        11 (Hash: a371f965, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 38
+2024-10-08 16:09:43	Block commit:        12 (Hash: 94c5303a, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 40
+2024-10-08 16:09:47	Block commit:        13 (Hash: 5d3f6dfb, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 42
+2024-10-08 16:10:06	Block commit:        14 (Hash: 94552186, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 44
+2024-10-08 16:10:19	Block commit:        15 (Hash: 33b76e27, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 46
+2024-10-08 16:10:33	Block commit:        16 (Hash: b0bbcc65, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 48
+2024-10-08 16:10:45	Block commit:        17 (Hash: 7e0a02a1, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 50
+2024-10-08 16:10:56	Block commit:        18 (Hash: d3a62e83, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 52
+2024-10-08 16:11:12	Block commit:        19 (Hash: f7fdb94c, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 54
+2024-10-08 16:11:31	Block commit:        20 (Hash: f3c72c2c, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 56
+2024-10-08 16:11:43	Block commit:        21 (Hash: 06dc676a, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 58
+2024-10-08 16:11:58	Block commit:        22 (Hash: 3f780354, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 60
+2024-10-08 16:12:25	Block commit:        23 (Hash: 16d3e7ab, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 62
+2024-10-08 16:12:32	Block commit:        24 (Hash: 43f1af9e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 64
+2024-10-08 16:12:41	Block commit:        25 (Hash: f989b08e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 66
+2024-10-08 16:12:54	Block commit:        26 (Hash: ec930e98, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 68
+2024-10-08 16:12:56	Grant: (00000000-b975b69b-00000001-7678077e) (0--1, 1728396776), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:12:56	Grant: (00000000-b975b69b-00000002-7678077e) (0--1, 1728396776), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:12:56	Grant: (00000000-b975b69b-00000004-7678077e) (0--1, 1728396776), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:13:03	Mempool copy:        26, Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-08 16:13:03	Mempool ramv:        26, Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-08 16:13:03	Mempool copy:        26, Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-08 16:13:03	Mempool ramv:        26, Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-08 16:13:03	Mempool copy:        26, Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-08 16:13:03	Mempool clr :        26, Admin count: 1, Miner count: 1, Ledger Rows: 68
+2024-10-08 16:13:03	Mempool rstr:        26, Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-08 16:13:03	Mempool clr :        26, Admin count: 1, Miner count: 1, Ledger Rows: 68
+2024-10-08 16:13:03	Grant: (00000000-b975b69b-00000001-7678077e) (0--1, 1728396776), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:13:03	Grant: (00000000-b975b69b-00000002-7678077e) (0--1, 1728396776), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:13:03	Grant: (00000000-b975b69b-00000004-7678077e) (0--1, 1728396776), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-08 16:13:03	Block commit:        27 (Hash: a992f441, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 73
+2024-10-08 16:13:27	Block commit:        28 (Hash: 21868165, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 75
+2024-10-08 16:13:45	Block commit:        29 (Hash: bc605ad2, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 77
+2024-10-08 16:14:00	Block commit:        30 (Hash: c9ef845d, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 79
+2024-10-08 16:14:16	Block commit:        31 (Hash: c9cea245, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 81
+2024-10-08 16:14:24	Block commit:        32 (Hash: 1bae9798, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 83
+2024-10-08 16:14:46	Block commit:        33 (Hash: dd70f916, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 85
+2024-10-08 16:14:59	Block commit:        34 (Hash: b85dd85d, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 87
+2024-10-08 16:15:12	Block commit:        35 (Hash: 3e5c630c, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 89
+2024-10-08 16:15:21	Block commit:        36 (Hash: 47b8c71e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 91
+2024-10-08 16:15:44	Block commit:        37 (Hash: 6abe5f99, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 93
+2024-10-08 16:16:01	Block commit:        38 (Hash: 69de8090, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 95
+2024-10-08 16:16:17	Block commit:        39 (Hash: dfc937d6, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 97
+2024-10-08 16:16:29	Block commit:        40 (Hash: 05f51477, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 99
+2024-10-08 16:16:42	Block commit:        41 (Hash: d01a7598, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 101
+2024-10-08 16:17:04	Block commit:        42 (Hash: 957beba5, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 103
+2024-10-08 16:17:18	Block commit:        43 (Hash: 9c393b48, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 105
+2024-10-08 16:17:37	Block commit:        44 (Hash: 7d0d766d, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 107
+2024-10-08 16:17:52	Block commit:        45 (Hash: 9d2a5ddb, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 109
+2024-10-08 16:18:01	Block commit:        46 (Hash: 525bc366, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 111
+2024-10-08 16:18:11	Block commit:        47 (Hash: 17028302, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 113
+2024-10-08 16:18:31	Block commit:        48 (Hash: e81df602, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 115
+2024-10-08 16:18:43	Block commit:        49 (Hash: 4f635c0e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 117
+2024-10-08 16:19:07	Block commit:        50 (Hash: 8057864e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 119
+2024-10-08 16:19:13	Block commit:        51 (Hash: 4420d073, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 121
+2024-10-08 16:19:37	Block commit:        52 (Hash: ac2a4204, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 123
+2024-10-08 16:19:52	Block commit:        53 (Hash: 3bb676f2, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 125
+2024-10-08 16:20:11	Block commit:        54 (Hash: 9b54ad51, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 127
+2024-10-08 16:20:27	Block commit:        55 (Hash: 859e65aa, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 129
+2024-10-08 16:20:37	Block commit:        56 (Hash: a1b59f6e, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 131
+2024-10-08 16:20:48	Block commit:        57 (Hash: cdb6d90d, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 133
+2024-10-08 16:21:01	Block commit:        58 (Hash: 6ff3676d, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 135
+2024-10-08 16:21:16	Block commit:        59 (Hash: e5e932e7, Miner: 7678077e), Admin count: 1, Miner count: 1, Ledger Rows: 137
