@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.8.2",
+    "solc": "^0.8.28",
+    "web3": "^4.14.0"
+  }
 }
