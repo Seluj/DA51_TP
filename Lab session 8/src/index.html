@@ -41,7 +41,51 @@
     </style>
   </head>
   <body>
-  <div class="container">
+  <h1>Crowdfunding DApp</h1>
+
+  <!-- Start Campaign Section -->
+  <h2>Start a Campaign</h2>
+  <label for="goal">Goal (in Wei):</label>
+  <input type="number" id="goal" placeholder="Enter goal in wei">
+  <label for="deadline">Deadline (UNIX Timestamp):</label>
+  <input type="number" id="deadline" placeholder="Enter deadline timestamp">
+  <button class="btn btn-primary btn-block btn-start-campaign">Start Campaign</button>
+  <p id="startCampaignResult"></p>
+
+  <!-- Contribute Section -->
+  <h2>Contribute to a Campaign</h2>
+  <label for="campaignId">Campaign ID:</label>
+  <input type="number" id="campaignId" placeholder="Enter campaign ID">
+  <label for="amount">Amount (in Wei):</label>
+  <input type="number" id="amount" placeholder="Enter amount to contribute">
+  <button class="btn btn-primary btn-block btn-contribute">Contribute</button>
+  <p id="contributeResult"></p>
+
+  <!-- Check Goal Reached Section -->
+  <h2>Check if Campaign Goal Reached</h2>
+  <label for="campaignIdCheck">Campaign ID:</label>
+  <input type="number" id="campaignIdCheck" placeholder="Enter campaign ID">
+  <button class="btn btn-primary btn-block btn-check-goal">Check Goal</button>
+  <p id="checkGoalResult"></p>
+
+  <!-- Close the campaign -->
+  <h2>Close a Campaign</h2>
+  <label for="campaignIdClose">Campaign ID:</label>
+  <input type="number" id="campaignIdClose" placeholder="Enter campaign ID">
+  <button class="btn btn-primary btn-block btn-close">Close</button>
+  <p id="closeResult"></p>
+
+  <!-- Withdraw Section -->
+  <h2>Withdraw Funds</h2>
+  <label for="campaignIdWithdraw">Campaign ID:</label>
+  <input type="number" id="campaignIdWithdraw" placeholder="Enter campaign ID">
+  <button class="btn btn-primary btn-block btn-withdraw">Withdraw</button>
+  <p id="withdrawResult"></p>
+
+
+
+
+  <!--<div class="container">
     <h2 class="text-center">Upload Document</h2>
     <div class="form-group">
       <label for="file">Choose Document</label>
@@ -63,7 +107,7 @@
     </div>
     <button class="btn btn-success btn-block btn-verify">Verify</button>
     <p id="verify-status" class="text-danger mt-3"></p>
-  </div>
+  </div>-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

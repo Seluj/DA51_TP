@@ -13,7 +13,7 @@ contract Crowdfunding {
     mapping(uint256 => Campaign) public campaigns;
     uint256 public campaignId;
 
-    function startCampaign(uint256 _goal, uint256 _deadline) public {
+    function startCampaign(uint256 _goal, uint256 _deadline) public returns (uint256) {
         require(_goal > 0, "Goal must be greater than 0");
         require(_deadline > block.timestamp, "Deadline must be in the future");
 
@@ -26,25 +26,36 @@ contract Crowdfunding {
         });
 
         campaignId++;
+        return campaignId - 1;
     }
 
-    function contribute(uint256 _campaignId) public payable {
+    function contribute(uint256 _campaignId) public payable returns (uint256) {
         Campaign storage campaign = campaigns[_campaignId];
         require(msg.value > 0, "Contribution must be greater than 0");
         require(!campaign.closed, "Campaign is closed");
         require(block.timestamp < campaign.deadline, "Deadline has passed");
 
         campaign.balance += msg.value;
+        return campaign.balance;
     }
 
-    function checkGoalReached(uint256 _campaignId) public {
+    function checkGoalReached(uint256 _campaignId) public returns (bool) {
         Campaign storage campaign = campaigns[_campaignId];
         require(!campaign.closed, "Campaign is closed");
         //require(block.timestamp >= campaign.deadline, "Deadline has not passed");
 
         if (campaign.balance >= campaign.goal) {
-            campaign.closed = true;
+            return true;
+        } else {
+            return false;
         }
+    }
+
+    function closeCampaign(uint256 _campaignId) public {
+        Campaign storage campaign = campaigns[_campaignId];
+        require(!campaign.closed, "Campaign is already closed");
+
+        campaign.closed = true;
     }
 
     function withdraw(uint256 _campaignId) public {
