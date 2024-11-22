@@ -64,7 +64,7 @@ App = {
                 doc = instance;
                 return doc.startCampaign(goal, deadline, {from: account});
             }).then(function (result) {
-                $('#startCampaignResult').text('Campaign started successfully' + result);
+                $('#startCampaignResult').text('Campaign started successfully' + result.tx);
             }).catch(function (err) {
                 console.log(err.message);
             });
