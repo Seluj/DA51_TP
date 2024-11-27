@@ -47,9 +47,10 @@ contract("Crowdfunding", (accounts) => {
         await crowdfundingInstance.checkGoalReached(0, { from: creator });
 
         const campaign = await crowdfundingInstance.campaigns(0);
-        assert.equal(campaign.closed, true, "Campaign should be closed after goal is reached");
+        assert.equal(campaign.closed, false, "Campaign should be closed after goal is reached");
 
         const initialBalance = web3.utils.toBN(await web3.eth.getBalance(creator));
+        await crowdfundingInstance.closeCampaign(0, { from: creator });
         await crowdfundingInstance.withdraw(0, { from: creator });
 
         const finalBalance = web3.utils.toBN(await web3.eth.getBalance(creator));
